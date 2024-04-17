@@ -14,6 +14,7 @@ const Select = ({ label, value, onChange, children }) => {
   `
 
   const NativeSelect = styled.select`
+    appearance: none;
     position: absolute;
     top: 0;
     left: 0;
